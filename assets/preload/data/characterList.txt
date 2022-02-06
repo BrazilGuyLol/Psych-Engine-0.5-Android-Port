@@ -19,6 +19,6 @@ senpai-angry
 spirit
 bf-pixel-opponent
 pico-player
-parents-christmas-corrupted
+parents-christmas-corrupt
 cbf
 cgf
