@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="skid.png"><SubTexture name="skid idle0000" x="0" y="0" width="1000" height="880" frameX="0" frameY="0" frameWidth="1000" frameHeight="880" />
+<SubTexture name="skid idle0001" x="1000" y="0" width="1000" height="880" frameX="0" frameY="0" frameWidth="1000" frameHeight="880" />
+<SubTexture name="skid idle0002" x="2000" y="0" width="1000" height="880" frameX="0" frameY="0" frameWidth="1000" frameHeight="880" />
+<SubTexture name="skid idle0003" x="0" y="880" width="1000" height="880" frameX="0" frameY="0" frameWidth="1000" frameHeight="880" />
+<SubTexture name="skid idle0004" x="1000" y="880" width="1000" height="880" frameX="0" frameY="0" frameWidth="1000" frameHeight="880" />
+<SubTexture name="skid down0000" x="2000" y="880" width="1000" height="880" frameX="0" frameY="0" frameWidth="1000" frameHeight="880" />
+<SubTexture name="skid down0001" x="0" y="1760" width="1000" height="880" frameX="0" frameY="0" frameWidth="1000" frameHeight="880" />
+<SubTexture name="skid left0000" x="1000" y="1760" width="1000" height="880" frameX="0" frameY="0" frameWidth="1000" frameHeight="880" />
+<SubTexture name="skid left0001" x="2000" y="1760" width="1000" height="880" frameX="0" frameY="0" frameWidth="1000" frameHeight="880" />
+<SubTexture name="skid right0000" x="0" y="2640" width="1000" height="880" frameX="0" frameY="0" frameWidth="1000" frameHeight="880" />
+<SubTexture name="skid right0001" x="1000" y="2640" width="1000" height="880" frameX="0" frameY="0" frameWidth="1000" frameHeight="880" />
+<SubTexture name="skid up0000" x="2000" y="2640" width="1000" height="880" frameX="0" frameY="0" frameWidth="1000" frameHeight="880" />
+<SubTexture name="skid up0001" x="0" y="3520" width="1000" height="880" frameX="0" frameY="0" frameWidth="1000" frameHeight="880" />
+</TextureAtlas>
