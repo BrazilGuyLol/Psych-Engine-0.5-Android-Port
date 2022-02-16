@@ -2,7 +2,7 @@
 <project>
 	<!-- _________________________ Application Settings _________________________ -->
 
-        <app title="Friday Night Funkin': Corruption" file="PsychEngineCorruption" packageName="com.brazilguy.psychengine" packageName="com.brazilguy.psychengine" main="Main" version="0.2.7" company="SawSirox" />
+        <app title="Friday Night Funkin': Corruption" file="PsychEngineCorruption" package="com.brazilguy.psychengine" packageName="com.brazilguy.psychengine" main="Main" version="0.2.7" company="SawSirox" />
 	
 	<haxedef name="LINC_LUA_RELATIVE_DYNAMIC_LIB"/> <!-- stable luas PUT AFTER FIRST LINE WITH APP NAME AND ETC -->
 
