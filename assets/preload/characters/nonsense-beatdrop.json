@@ -1,0 +1,111 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Nonsense Idle Anim",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				10,
+				21
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Nonsense Up Anim",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				20,
+				-50
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Nonsense Down Anim",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				8,
+				0
+			],
+			"anim": "eventmad",
+			"fps": 24,
+			"name": "Nonsense (Not Really) Hey Anim",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				8,
+				2
+			],
+			"anim": "eventhahahlol",
+			"fps": 24,
+			"name": "takethat",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-12,
+				-31
+			],
+			"anim": "eventpain",
+			"fps": 24,
+			"name": "Lol he pissed",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Nonsense Right Anim"
+		},
+		{
+			"offsets": [
+				0,
+				-6
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Nonsense Left Anim"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "Nonsense/Nonsense_Corrupted_BeatDrop",
+	"position": [
+		0,
+		100
+	],
+	"healthicon": "nonsensebeatdrop",
+	"flip_x": false,
+	"healthbar_colors": [
+		116,
+		231,
+		255
+	],
+	"camera_position": [
+		-70,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}
