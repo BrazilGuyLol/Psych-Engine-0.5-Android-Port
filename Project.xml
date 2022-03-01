@@ -2,7 +2,7 @@
 <project>
 	<!-- _________________________ Application Settings _________________________ -->
 
-        <app title="Friday Night Funkin': Corruption" file="PsychEngineCorruption" packageName="com.brazilguy.psychengine" package="com.brazilguy.psychengine" main="Main" version="0.2.7" company="SawSirox" />
+        <app title="Friday Night Funkin': Corruption" file="BrazilEngine" packageName="com.brazilguy.psychengine" package="com.brazilguy.psychengine" main="Main" version="0.2.7" company="SawSirox" />
 	
 	<haxedef name="LINC_LUA_RELATIVE_DYNAMIC_LIB"/> <!-- stable luas PUT AFTER FIRST LINE WITH APP NAME AND ETC -->
 
@@ -99,10 +99,10 @@
 	<assets path="assets/week6"         library="week6"         exclude="*.mp3" unless="web"/>
 	
 	<assets path='example_mods' rename='mods' embed='false' if="MODS_ALLOWED"/>
-	<assets path='art/readme.txt' rename='do NOT readme.txt' />
+	<assets path='art/readme.txt' rename='readme NOW!1!1.txt' />
 	<!-- <template path='mods' /> -->
 	
-	<!-- assets path="CHANGELOG.md" rename='changelog.txt' -->
+	<!-- assets path="CHANGELOG.md" rename='changelol.txt' -->
 
 	<!-- NOTE FOR FUTURE SELF SINCE FONTS ARE ALWAYS FUCKY 
 		TO FIX ONE OF THEM, I CONVERTED IT TO OTF. DUNNO IF YOU NEED TO
