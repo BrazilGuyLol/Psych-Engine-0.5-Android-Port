@@ -65,7 +65,7 @@ class PauseSubState extends MusicBeatSubstate
 		add(levelDifficulty);
 
 		var blueballedTxt:FlxText = new FlxText(20, 15 + 64, 0, "", 32);
-		blueballedTxt.text = "Blueballed: " + PlayState.deathCounter;
+		blueballedTxt.text = "You Were Blueballed:  Times" + PlayState.deathCounter;
 		blueballedTxt.scrollFactor.set();
 		blueballedTxt.setFormat(Paths.font('vcr.ttf'), 32);
 		blueballedTxt.updateHitbox();
@@ -148,18 +148,18 @@ class PauseSubState extends MusicBeatSubstate
 
 			switch (daSelected)
 			{
-				case "Resume":
+				case "Resume The Somg":
 					close();
-				case 'Change Difficulty':
+				case 'Change Your Difficulty(Skill Issue)':
 					menuItems = difficultyChoices;
 					regenMenu();
-				case "Chart Editor":
+				case "Edited Chart":
 				    MusicBeatState.switchState(new editors.ChartingState());
-				case "Restart Song":
+				case "Restart The Song":
 					CustomFadeTransition.nextCamera = transCamera;
 					MusicBeatState.resetState();
 					FlxG.sound.music.volume = 0;
-				case "Exit to menu":
+				case "Exit to the corrupted menu":
 					PlayState.deathCounter = 0;
 					PlayState.seenCutscene = false;
 					CustomFadeTransition.nextCamera = transCamera;
