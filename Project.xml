@@ -2,7 +2,7 @@
 <project>
 	<!-- _________________________ Application Settings _________________________ -->
 
-        <app title="Friday Night Funkin': Corruption" file="BrazilEngine" packageName="com.brazilguy.psychengine" package="com.brazilguy.psychengine" main="Main" version="0.2.7" company="SawSirox" />
+        <app title="Friday Night Funkin': Corruption" file="CorruptionEngine" packageName="com.brazilguy.corruptedengine" package="com.brazilguy.corruptedengine" main="Main" version="0.2.7" company="BrazilGuyLol" />
 	
 	<haxedef name="LINC_LUA_RELATIVE_DYNAMIC_LIB"/> <!-- stable luas PUT AFTER FIRST LINE WITH APP NAME AND ETC -->
 
@@ -44,8 +44,8 @@
 
 	<classpath name="source" />
 
-	<assets path="assets/preload" rename="assets" exclude="*.ogg" if="web"/>
-	<assets path="assets/preload" rename="assets" exclude="*.mp3"  unless="web"/>
+	<assets path="assets/preload" rename="evilassets" exclude="*.ogg" if="web"/>
+	<assets path="assets/preload" rename="evilassets" exclude="*.mp3"  unless="web"/>
 	
 	<!-- PSYCH ENGINE CUSTOMIZATION -->
 	<define name="MODS_ALLOWED" if="desktop || mobile" />
@@ -83,26 +83,26 @@
 		<library name="week6"         preload="false" />
 	</section>
 
-	<assets path="assets/songs"         library="songs"         exclude="*.ogg" if="web"/>
-	<assets path="assets/songs"         library="songs"         exclude="*.mp3" unless="web"/>
-	<assets path="assets/shared"        library="shared"        exclude="*.ogg" if="web"/>
-	<assets path="assets/shared"        library="shared"        exclude="*.mp3" unless="web"/>
-	<assets path="assets/week2"         library="week2"         exclude="*.ogg" if="web"/>
-	<assets path="assets/week2"         library="week2"         exclude="*.mp3" unless="web"/>
-	<assets path="assets/week3"         library="week3"         exclude="*.ogg" if="web"/>
-	<assets path="assets/week3"         library="week3"         exclude="*.mp3" unless="web"/>
-	<assets path="assets/week4"         library="week4"         exclude="*.ogg" if="web"/>
-	<assets path="assets/week4"         library="week4"         exclude="*.mp3" unless="web"/>
-	<assets path="assets/week5"         library="week5"         exclude="*.ogg" if="web"/>
-	<assets path="assets/week5"         library="week5"         exclude="*.mp3" unless="web"/>
-	<assets path="assets/week6"         library="week6"         exclude="*.ogg" if="web"/>
-	<assets path="assets/week6"         library="week6"         exclude="*.mp3" unless="web"/>
+	<assets path="evilassets/songs"         library="songs"         exclude="*.ogg" if="web"/>
+	<assets path="evilassets/songs"         library="songs"         exclude="*.mp3" unless="web"/>
+	<assets path="evilassets/shared"        library="shared"        exclude="*.ogg" if="web"/>
+	<assets path="evilassets/shared"        library="shared"        exclude="*.mp3" unless="web"/>
+	<assets path="evilassets/week2"         library="week2"         exclude="*.ogg" if="web"/>
+	<assets path="evilassets/week2"         library="week2"         exclude="*.mp3" unless="web"/>
+	<assets path="evilassets/week3"         library="week3"         exclude="*.ogg" if="web"/>
+	<assets path="evilassets/week3"         library="week3"         exclude="*.mp3" unless="web"/>
+	<assets path="evilassets/week4"         library="week4"         exclude="*.ogg" if="web"/>
+	<assets path="evilassets/week4"         library="week4"         exclude="*.mp3" unless="web"/>
+	<assets path="evilassets/week5"         library="week5"         exclude="*.ogg" if="web"/>
+	<assets path="evilassets/week5"         library="week5"         exclude="*.mp3" unless="web"/>
+	<assets path="evilassets/week6"         library="week6"         exclude="*.ogg" if="web"/>
+	<assets path="evilassets/week6"         library="week6"         exclude="*.mp3" unless="web"/>
 	
-	<assets path='example_mods' rename='mods' embed='false' if="MODS_ALLOWED"/>
-	<assets path='art/readme.txt' rename='readme NOW!1!1.txt' />
+	<assets path='example_mods' rename='corruptedmods' embed='false' if="MODS_ALLOWED"/>
+	<assets path='art/readme.txt' rename='readme NOW GRRRR!1!1.txt' />
 	<!-- <template path='mods' /> -->
 	
-	<!-- assets path="CHANGELOG.md" rename='changelol.txt' -->
+	<!-- assets path="CHANGELOG.md" rename='changeslol.txt' -->
 
 	<!-- NOTE FOR FUTURE SELF SINCE FONTS ARE ALWAYS FUCKY 
 		TO FIX ONE OF THEM, I CONVERTED IT TO OTF. DUNNO IF YOU NEED TO
