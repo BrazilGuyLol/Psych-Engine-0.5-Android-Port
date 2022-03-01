@@ -39,7 +39,7 @@ class StoryMenuState extends MusicBeatState
 
 	private static var curWeek:Int = 0;
 
-	var txtTracklist:FlxText;
+	var txtTracklist:FlxText; 
 
 	var grpWeekText:FlxTypedGroup<MenuItem>;
 	var grpWeekCharacters:FlxTypedGroup<MenuCharacter>;
@@ -93,7 +93,7 @@ class StoryMenuState extends MusicBeatState
 
 		#if desktop
 		// Updating Discord Rich Presence
-		DiscordClient.changePresence("In the Menus", null);
+		DiscordClient.changePresence("Corrupting The Menus", null);
 		#end
 
 		for (i in 0...WeekData.weeksList.length)
