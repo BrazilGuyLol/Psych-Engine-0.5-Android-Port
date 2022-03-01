@@ -148,7 +148,9 @@ class CharacterEditorState extends MusicBeatState
 			\nSpace - Play Animation
 			\nArrow Keys - Move Character Offset
 			\nZ - Reset Current Offset
-			\nHold Shift to Move 10x faster\n", 12);
+			\nHold Shift to Move 10x faster
+                        \nThese Things Are Useless Get Real
+                        \n", 12);
 		tipText.cameras = [camHUD];
 		tipText.setFormat(null, 12, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		tipText.scrollFactor.set();
@@ -396,12 +398,12 @@ class CharacterEditorState extends MusicBeatState
 				}
 			],
 			"no_antialiasing": false,
-			"image": "characters/DADDY_DEAREST",
+			"image": "characters/Nonsense",
 			"position": [
 				0,
 				0
 			],
-			"healthicon": "face",
+			"healthicon": "dad",
 			"flip_x": false,
 			"healthbar_colors": [
 				161,
